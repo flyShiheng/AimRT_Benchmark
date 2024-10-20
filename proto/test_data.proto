@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package aimrt_benchmark.proto;
+
+message TestData {
+  uint32 index = 1;
+  string message = 2;
+}
