@@ -9,8 +9,8 @@
   6. 支持保存节点所接收的可分析数据
 
 
-  docker build --progress=plain -t ubuntu_test .
-  docker run -it ubuntu_test
-  docker run -it -v path_in_host:path_in_docker ubuntu_test
+  docker build --progress=plain -t ubuntu_test . <br>
+  docker run -it ubuntu_test <br>
+  docker run -it -v path_in_host:path_in_docker ubuntu_test <br>
 
   bash build.sh
